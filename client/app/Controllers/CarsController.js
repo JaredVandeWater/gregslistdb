@@ -50,6 +50,7 @@ export default class CarsController {
       }
       await carsService.createCar(newCar)
 
+
       // @ts-ignore
       form.reset()
 
